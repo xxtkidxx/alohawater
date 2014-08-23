@@ -101,8 +101,8 @@ $(document).ready(function() {
 	},function(){
 	    $(this).find(".over1").stop().animate({opacity:0 }, 800, 'easeOutExpo');
 		$(this).find(".over2").stop().animate({opacity:1 }, 800, 'easeOutExpo');
-		$(this).find(".txt1").stop().animate({color:"#47688a" }, 800, 'easeOutExpo');
-		$(this).find(".txt2").stop().animate({color:"#6f8fb1" }, 800, 'easeOutExpo');
+		$(this).find(".txt1").stop().animate({color:"#0075df" }, 800, 'easeOutExpo');
+		$(this).find(".txt2").stop().animate({color:"#0099ff" }, 800, 'easeOutExpo');
 		
 	});
 	
