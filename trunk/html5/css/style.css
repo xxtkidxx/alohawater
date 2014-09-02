@@ -35,8 +35,8 @@ body{ background:#fff; border:0; font: 12px Arial, Helvetica, sans-serif; color:
 
 footer{ width:100%; height:173px; background:url(../images/footer.jpg) center top repeat-x; position:absolute; left:0; bottom:0; z-index:20;}
 .slogan{ display:inline-block; white-space:nowrap; position:absolute; left:40px; top:80px; z-index:0;}
-.slogan .txt1{ font-family:'open_sansregular'; font-size:30px; line-height:30px; color:#0099ff;}
-.slogan .txt2{ font-family:'open_sansbold'; font-size:30px; line-height:30px; color:#0099ff;}
+.slogan .txt1{ font-family:'arial'; font-size:30px; line-height:26px; color:#0099ff;}
+.slogan .txt2{ font-family:'arial'; font-size:20px; line-height:20px; color:#0099ff;}
 .icons { float:right; padding-top:80px; padding-right:20px; padding-left:30px;}
 .icons > li { display:inline-block; padding:0 1px;position:relative; float:left;}
 .icons > li > a{display:block; width:100%;}
@@ -48,11 +48,12 @@ footer{ width:100%; height:173px; background:url(../images/footer.jpg) center to
 
 .main2{ width:1000px; height:800px; position:absolute; left:50%; margin-left:-500px; top:50%; margin-top:-390px; z-index:10;}
 
-header{ width:100%; position:absolute; left:0; top:100px;; z-index:5; text-align:center;}
+header{ width:100%; position:absolute; left:0; top:86px;; z-index:5; text-align:center;}
 .logo { display:inline-block;text-decoration:none;}
 .logo .txt1{ text-decoration:none; font-family:'playballregular'; font-size:60px; line-height:60px; color:#ff0000;}
 .logo .txt1 span{ color:#ff0000;}
 .logo .txt2{ text-decoration:none; font-family:'playballregular'; font-size:24px; line-height:24px; color:#0075df;}
+.logo.imglogo{width: auto;height: auto;}
 
 
 
