@@ -1,24 +1,21 @@
 <?php
-$use_symbols = "012345679"; // Здесь Только те буквы, которые Вы хотите выводить
+$use_symbols = "012345679"; 
 $use_symbols_len=strlen($use_symbols);
 
-$amplitude_min=10; // Минимальная амплитуда волны
-$amplitude_max=20; // Максимальная амплитуда волны
+$amplitude_min=10; 
+$amplitude_max=20; 
 
-$font_width=25; // Приблизительная ширина символа в пикселях
+$font_width=25; 
 
-$rand_bsimb_min=3; // Минимальное расстояние между символами (можно отрицательное)
-$rand_bsimb_max=5; // Максимальное расстояние между символами
+$rand_bsimb_min=3; 
+$rand_bsimb_max=5;
 
-$margin_left=10;// отступ слева
-$margin_top=50; // отступ сверху
+$margin_left=10;
+$margin_top=50;
 
-$font_size=40; // Размер шрифта
+$font_size=40; 
 
-$jpeg_quality = 90; // Качество картинки
-$back_count = 1; // Количество фоновых рисунков в папке captcha_fonts идущих по порядку от 1 до $back_count
+$jpeg_quality = 90; 
+$back_count = 1; 
 $length = 6; 
-	// Количество символов 6, но Вы у себя поставьте 3-4 можно mt_rand(3,4);
-	// Если Вы укажите символов больше 4, 
-	// то увеличте ширину фонового рисунка ./captcha_fonts/back[все номера].gif
-	// Да и вообще нарисуйте свой фон!!!
+?>
