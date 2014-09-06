@@ -1,7 +1,6 @@
 <?php
 /*
-Credits: Bit Repository
-URL: http://www.bitrepository.com/
+TuanDA
 */
 
 include 'contact_config.php';

@@ -73,3 +73,4 @@ function image_make_pomexi(&$im,$size,$colch){
     			imageline($im,$px1,$py1,$px1+$size*$pk1,$py1+$size*$pk2,$col);
 			}	
 }
+?>
