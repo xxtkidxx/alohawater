@@ -1,5 +1,5 @@
 $(window).load(function(){
-	var mapUrl = "http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Glasgow,&amp;aq=&amp;sll=46.975033,31.994583&amp;sspn=0.368248,0.617294&amp;vpsrc=6&amp;ie=UTF8&amp;hq=&amp;hnear=Glasgow,+Glasgow+City,+United+Kingdom&amp;t=m&amp;ll=55.866932,-4.256344&amp;spn=0.020324,0.070896&amp;z=13&amp;output=embed",
+	var mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.345024200439!2d105.81692220000002!3d21.018876400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab64d3df8ba1%3A0xf7c8f69233b930f!2zNTkgTMOhbmcgSOG6oSwgVGjDoG5oIEPDtG5nLCDEkOG7kW5nIMSQYSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1410022482889",
  		onLoadWebSite = false,
    		googleMapHolder = $(".google_map"),
         backgroundColor = googleMapHolder.css("backgroundColor"),
